@@ -36,6 +36,8 @@ finish-args:
   - --talk-name=org.kde.kwalletd5
   # Needed to talk to the gvfs daemons over D-Bus and list mounts using the GIO APIs
   - --talk-name=org.gtk.vfs.*
+  # Allow access to appindicator icons
+  - --talk-name=org.ayatana
 cleanup:
   - /include
   - /lib/pkgconfig
