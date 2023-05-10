@@ -127,7 +127,8 @@ modules:
       - ln -s /app/Cryptomator/bin/Cryptomator /app/bin/cryptomator
       - install -D -m0644 -t /app/share/applications/ dist/linux/common/org.cryptomator.Cryptomator.desktop
       - install -D -m0644 -t /app/share/icons/hicolor/scalable/apps/ dist/linux/common/org.cryptomator.Cryptomator.svg
-      - install -D -m0644 -t /app/share/icons/hicolor/scalable/apps/ dist/linux/common/org.cryptomator.Cryptomator-unlocked.svg
+      - install -D -m0644 -t /app/share/icons/hicolor/scalable/apps/ dist/linux/common/org.cryptomator.Cryptomator-monochrome.svg
+      - install -D -m0644 -t /app/share/icons/hicolor/scalable/apps/ dist/linux/common/org.cryptomator.Cryptomator-monochrome-unlocked.svg
       - install -D -m0644 -t /app/share/metainfo/ dist/linux/common/org.cryptomator.Cryptomator.metainfo.xml
     sources:
       - maven-dependencies.yaml
